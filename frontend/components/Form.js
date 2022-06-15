@@ -4,7 +4,6 @@ import { postQuiz, inputChange, resetForm } from '../state/action-creators'
 //import * as actionCreators from '../state/action-creators'
 
 export function Form(props) {
-  console.log(props)
 
   const onChange = evt => {
     const {id, value} = evt.target
